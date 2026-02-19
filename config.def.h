@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono NerdFont:pixelsize=16:antialias=true:autohint=true";
-static int borderpx = 0;
+static char *font = "JetBrains Mono NerdFont:pixelsize=14:antialias=true:autohint=true";
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -116,7 +116,7 @@ static const char *colorname[] = {
     [15] = "#ffffff", /* white   */
                                    
     /* special colors */
-    [256] = "#282a36", /* background */
+    [256] = "#181a26", /* background */
     [257] = "#f8f8f2", /* foreground */
 
 	/* more colors can be added after 255 to use with DefaultXX */
