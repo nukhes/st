@@ -1,4 +1,0 @@
-mkdir ~/src && cd ~/src
-git clone git@github.com:nukhes/st.git
-cd st
-doas make clean install
